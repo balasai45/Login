@@ -4,7 +4,7 @@ const connection = async () => {
     let dbconnection;
 
 
-    const uri = "mongodb+srv://Bala45:Balasai@45@cluster0.8eolhpa.mongodb.net/test";
+    const uri = "";
     const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
     
     try {
