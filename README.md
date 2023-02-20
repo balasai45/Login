@@ -1,2 +1,2 @@
 # Login Page 
-This login page takes to page where you can see the all the items 
+This login page after your authenticated then you can see signup_success page
