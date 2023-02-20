@@ -16,15 +16,7 @@ $('document').ready(function(){
           $("#aftersignup").append(card);
         })
         console.log(res);
-        $("submit").click(function(){
-            var days = [];
-            $.each($("input[name='directions']:checked"), function(){
-              days.push($(this).val());
-            });
-            for(var i=0;i<days.length;i++){
-                
-            }
-        });
+        
     })
    
 })
